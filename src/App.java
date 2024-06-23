@@ -1,10 +1,10 @@
 import DAO.UsuarioDAO;
-import entity.usuario;
+import entity.Usuario;
 
 public class App{
     public static void main(String[] args) throws Exception {
 
-        usuario u = new usuario();
+        Usuario u = new Usuario();
         u.setNome("caio");
         u.setLogin("caio");
         u.setSenha("123456789");
